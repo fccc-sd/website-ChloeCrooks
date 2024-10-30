@@ -10,7 +10,8 @@ Header {
 }   
 
 body {
-    background-image: url(images/flowerbg.jpg);
+    background-image: url(../images/flowerbg.jpg);
+    background-attachment: fixed;
     background-color:seashell;
     color: rgb(87, 68, 48);
     font-size: 1em;
@@ -103,7 +104,7 @@ caption
 img
 {
     float:left;
-    margin: 10px;
+    margin: 20px;
 }
 
 p
