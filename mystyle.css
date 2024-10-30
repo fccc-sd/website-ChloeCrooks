@@ -1,28 +1,35 @@
 Header {
     color:rgb(94, 80, 64);
     text-align: center;
-    font: bold 1.4em/1em 'Gill Sans', 'Gill Sans MT', 'Trebuchet', sans-serif
+    font: bold 1.4em/1em 'Gill Sans', 'Gill Sans MT', 'Trebuchet', sans-serif;
+    border-style: dotted;
+    border-width: thick;
+    border-color: rgb(163, 146, 127);
+    padding: 15px;
+    margin: 10px 15px;
 }   
 
 body {
+    background-image: url(images/flowerbg.jpg);
     background-color:seashell;
-    color: rgb(150, 132, 112);
+    color: rgb(87, 68, 48);
     font-size: 1em;
-    font: 1em 'Gill Sans', 'Gill Sans MT', 'Trebuchet', sans-serif
+    font: 1em 'Gill Sans', 'Gill Sans MT', 'Trebuchet', sans-serif;
+
 }
 
-.MyBestie {
-    color: rgb(124, 108, 90);
+.MyBestie 
+{
     font-weight: bold;
 }
 
-.Malcolm {
-    color: rgb(124, 108, 90);
+.Malcolm 
+{
     font-weight: bold;
 }
 
-.newpeople {
-    color: rgb(124, 108, 90);
+.newpeople 
+{
     font-weight: bold;
 }
 
@@ -44,7 +51,6 @@ ul
 
 nav
 {
-   background-color:rgb(240, 215, 186)
    line-height: 200%;
    display: block;
 }
@@ -70,6 +76,7 @@ nav a:visited
 nav a:hover
 {
     text-decoration:underline;
+    color:rgb(22, 18, 13);
 }
 
 table
@@ -87,7 +94,8 @@ tr, td, th
 }
 th
 {
-    background-color: rgb(51, 46, 39);
+    background-color: rgb(73, 69, 63);
+    color:rgb(161, 158, 155);
 }
 
 caption
@@ -95,4 +103,26 @@ caption
     caption-side: top;
     font-weight: bold;
     margin: 5px;
+}
+
+img
+{
+    float:left;
+    margin: 10px;
+}
+
+p
+{
+    margin: 20px;
+}
+
+h1
+{
+    margin: 20px;
+}
+
+h2
+{
+    margin: 20px;
+    clear: left;
 }
