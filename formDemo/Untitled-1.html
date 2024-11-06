@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="email_form" action="myPizzaForm.php" method="post">
+        <p>Username: <input type="text" name="Username" id="Username" autofocus> <br></p>
+        <p>Please enter your email adress to subscribe.</p>
+
+        <p>Email: <input type="text" name="Email" id="Email"></p>
+
+        <p><input id="submit" type="submit" value="Subscribe"></p>
+
+        <p><input type="reset" id="restform" value="Reset"></p>
+
+        <p><input type="button" id="message" value="Alert Me"></p>
+
+        <p>Password: <input type="password" name="Pass" id="Pass" maxlength="16" placeholder="Enter your password"><br>
+        </p>
+
+
+        <fieldset> <input type="radio" name="inches" id="inches" value="in" checked>
+            <label for="inches"> Inches</label>
+            <input type="radio" name="feet" id="feet" value="ft">
+            <label for="feet"> Feet</label>
+            <input type="radio" name="yards" id="yards" value="ys">
+            <label for="Yards"> Yards</label>
+        </fieldset>
+
+
+
+        <input type="checkbox" name="fahr" id="fahr" value="F">
+        <label for="fhr"> Fahrenheight</label>
+
+        <p>Hidden: <input type="hidden" name="Invisible" value="somevalue"></p>
+        <br> <br>
+        <textarea name="Comment" id="Comment" cols="30" rows="10"></textarea>
+
+    </form>
+</body>
+
+</html>
